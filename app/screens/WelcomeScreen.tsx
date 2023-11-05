@@ -12,9 +12,7 @@ import { AppStackScreenProps } from "app/navigators"
 const welcomeLogo = require("../../assets/images/logo.png")
 const welcomeFace = require("../../assets/images/welcome-face.png")
 
-interface WelcomeScreenProps extends AppStackScreenProps<"Welcome"> {}
-
-export const WelcomeScreen: FC<WelcomeScreenProps> = observer(({ route, navigation }) => {
+export const WelcomeScreen: FC<AppStackScreenProps<"Welcome">> = observer(({ route, navigation }) => {
   const $bottomContainerInsets = useSafeAreaInsetsStyle(["bottom"])
 
   return (
