@@ -33,6 +33,7 @@
     "react-error-overlay": "6.0.9"
   },
   "dependencies": {
+    "@expo-google-fonts/poppins": "^0.2.3",
     "@expo-google-fonts/space-grotesk": "^0.2.2",
     "@expo/metro-config": "^0.7.1",
     "@expo/webpack-config": "18.1.2",
@@ -40,6 +41,8 @@
     "@react-navigation/bottom-tabs": "^6.3.2",
     "@react-navigation/native": "^6.0.2",
     "@react-navigation/native-stack": "^6.0.2",
+    "@rneui/base": "^4.0.0-rc.8",
+    "@rneui/themed": "^4.0.0-rc.8",
     "apisauce": "2.1.5",
     "date-fns": "^2.29.2",
     "expo": "^48.0.15",
@@ -60,10 +63,14 @@
     "react": "18.2.0",
     "react-native": "0.71.7",
     "react-native-bootsplash": "4.5.0",
+    "react-native-date-picker": "^4.3.3",
     "react-native-gesture-handler": "~2.9.0",
+    "react-native-modal": "^13.0.1",
     "react-native-reanimated": "~2.14.4",
     "react-native-safe-area-context": "4.5.0",
     "react-native-screens": "~3.20.0",
+    "react-native-toast-message": "^2.1.7",
+    "react-native-vector-icons": "^10.0.1",
     "reactotron-mst": "3.1.4",
     "reactotron-react-js": "^3.3.7",
     "reactotron-react-native": "5.0.3"
@@ -118,7 +125,7 @@
     "typescript": "^5.0.4"
   },
   "resolutions": {
-    "@types/react": "^18",
+    "@types/react": "18.0.26",
     "@types/react-dom": "^18"
   },
   "engines": {
@@ -127,7 +134,7 @@
   "prettier": {
     "printWidth": 100,
     "semi": false,
-    "singleQuote": false,
+    "singleQuote": true,
     "trailingComma": "all"
   },
   "eslintConfig": {

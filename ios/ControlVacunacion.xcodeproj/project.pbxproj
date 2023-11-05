@@ -90,6 +90,7 @@
 		13B07FAE1A68108700A75B9A /* ControlVacunacion */ = {
 			isa = PBXGroup;
 			children = (
+				1E5458612AF75FA50022E57B /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -98,6 +99,14 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = ControlVacunacion;
+			sourceTree = "<group>";
+		};
+		1E5458612AF75FA50022E57B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Fonts;
+			path = "../node_modules/react-native-vector-icons/Fonts";
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
